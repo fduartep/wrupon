@@ -12,44 +12,46 @@
 <body>
   <!-- TODO LIST:  SE DEBE AGREGAR EL MENU NAVBAR, LOGOS, FOOTER, ETC -->
   <header>
-    <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-success navbar-dark">
-          <img class="logo-img" src="assets/img/logos/logo-white.png" alt="Logo del sitio ">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse ml-auto" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Ofertas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Categorias</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Sobre nosotros</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contactanos</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-success navbar-dark"> 
+      <a class="navbar-brand" href="#">
+        <img class ="logo-img"src="assets/img/logos/logo-white.png" alt="Logo de la marca" width="50" height="50">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse ml-auto" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ofertas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Categorias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sobre nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contactanos</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </header>
+  
 
   <div class="container">
-    <div class="row justify-content-center">
+    <div class="row">
       <div class="col-md-4">
         <!-- Tarjeta de oferta 1 -->
-        <div class="card ">
+        <div class="card h-100">
           <img class="card-img-top" src="assets/img/ofertas/oferta1.png" alt="imagen oferta 1">
           <div class="card-body">
             <h5 class="card-title">Plumón Coral Fleece estampado en modelo y tamaño a elección</h5>
-            <p class="card-text">Plumones Manolino</p>
             <p class="card-text">Plumones Manolino</p>
             <p class="price">$39.990</p>
             <a href="#" class="btn btn-primary">compra ahora</a>
@@ -59,12 +61,12 @@
 
       <div class="col-md-4">
         <!-- Tarjeta de oferta 2 -->
-        <div class="card ">
+        <div class="card h-100">
           <img class="card-img-top" src="assets/img/ofertas/oferta2.png" alt="imagen oferta 2">
           <div class="card-body">
-            <h5 class="card-title">titulo oferta 2</h5>
-            <p class="card-text">Descripcion oferta</p>
-            <p class="price">$39.990</p>
+            <h5 class="card-title">Entrada para compartir + platos de fondo + postres + bebestibles</h5>
+            <p class="card-text">V for veganos</p>
+            <p class="price">$12.990</p>
             <a href="#" class="btn btn-primary">compra ahora</a>
           </div>
         </div>
@@ -72,12 +74,12 @@
 
       <div class="col-md-4">
         <!-- Tarjeta de oferta 3 -->
-        <div class="card ">
+        <div class="card h-100">
           <img class="card-img-top" src="assets/img/ofertas/oferta3.png" alt="imagen oferta 3">
           <div class="card-body">
-            <h5 class="card-title">titulo oferta 3</h5>
-            <p class="card-text">Descripcion oferta</p>
-            <p class="price">$39.990</p>
+            <h5 class="card-title">Evaluación integral + blanqueamiento dental led + limpieza + fluoración</h5>
+            <p class="card-text">Clínica Dental Quijada</p>
+            <p class="price">$25.000</p>
             <a href="#" class="btn btn-primary">compra ahora</a>
           </div>
         </div>
@@ -85,24 +87,24 @@
       
       <div class="col-md-4">
         <!-- Tarjeta de oferta 3 -->
-        <div class="card ">
+        <div class="card h-100">
           <img class="card-img-top" src="assets/img/ofertas/oferta4.png" alt="imagen oferta 4">
           <div class="card-body">
-            <h5 class="card-title">titulo oferta 3</h5>
+            <h5 class="card-title">Colación para 2 personas + postre (no incluye bebidas)</h5>
             <p class="card-text">Descripcion oferta</p>
-            <p class="price">$39.990</p>
+            <p class="price">$2.100</p>
             <a href="#" class="btn btn-primary">compra ahora</a>
           </div>
         </div>
       </div>
       <!-- Tarjeta de oferta 5 -->
       <div class="col">
-        <div class="card ">
+        <div class="card h-100">
           <img class="card-img-top" src="assets/img/ofertas/oferta5.png" alt="imagen oferta 5">
           <div class="card-body">
-            <h5 class="card-title">titulo oferta 5</h5>
-            <p class="card-text">Descripcion oferta</p>
-            <p class="price">$39.990 <a href="#" class="btn btn-primary">compra ahora</a></p>
+            <h5 class="card-title">1, 2 o 4 tickets para Stukids. Elige sucursal</h5>
+            <p class="card-text">Stukids Centro de Eventos</p>
+            <p class="price">$2.500</p>
             <a href="#" class="btn btn-primary">compra ahora</a>
           </div>
         </div>
@@ -110,12 +112,12 @@
 
       <!-- Tarjeta de oferta 6 -->
       <div class="col">
-        <div class="card ">
+        <div class="card h-100">
           <img class="card-img-top" src="assets/img/ofertas/oferta6.png" alt="imagen oferta 6">
           <div class="card-body">
-            <h5 class="card-title">titulo oferta 6</h5>
-            <p class="card-text">Descripcion oferta</p>
-            <p class="price">$39.990</p>
+            <h5 class="card-title">San Pedro de Atacama : 1 o 2 noches en alojamiento a elección</h5>
+            <p class="card-text">D-Latam Travel</p>
+            <p class="price">$44.100</p>
             <a href="#" class="btn btn-primary">compra ahora</a>
           </div>
         </div>

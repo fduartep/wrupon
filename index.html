@@ -7,20 +7,22 @@
   <title>Wrupon</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/wrupon.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
 </head>
 
 <body>
   <!-- TODO LIST:  SE DEBE AGREGAR EL MENU NAVBAR, LOGOS, FOOTER, ETC -->
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-success navbar-dark"> 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
       <a class="navbar-brand" href="#">
-        <img class ="logo-img"src="assets/img/logos/logo-white.png" alt="Logo de la marca" width="50" height="50">
+        <img class="logo-img" src="assets/img/logos/logo-white.png" alt="Logo de la marca" width="50" height="50">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      
+
       <div class="collapse navbar-collapse ml-auto" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
@@ -42,95 +44,174 @@
       </div>
     </nav>
   </header>
-  
 
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4 mb-4">
         <!-- Tarjeta de oferta 1 -->
         <div class="card h-100">
           <img class="card-img-top" src="assets/img/ofertas/oferta1.png" alt="imagen oferta 1">
           <div class="card-body">
             <h5 class="card-title">Plumón Coral Fleece estampado en modelo y tamaño a elección</h5>
             <p class="card-text">Plumones Manolino</p>
-            <p class="price">$39.990</p>
-            <a href="#" class="btn btn-primary">compra ahora</a>
+            <div class="location">
+              <i class="fas fa-map-marker-alt">9191 Avenida Vitacura, Chile</i>
+            </div>
+          
+          </div>
+          <div class="card-footer">
+            <div class="row justify-content-end">
+              <div class="col-6 text-right">
+                <p class="h6">$45.990</p>
+              </div>
+              <div class="col-6 text-right">
+                <p class="h5 text-success font-weight-bold">$22.990</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-md-4 mb-4">
         <!-- Tarjeta de oferta 2 -->
         <div class="card h-100">
           <img class="card-img-top" src="assets/img/ofertas/oferta2.png" alt="imagen oferta 2">
           <div class="card-body">
             <h5 class="card-title">Entrada para compartir + platos de fondo + postres + bebestibles</h5>
             <p class="card-text">V for veganos</p>
-            <p class="price">$12.990</p>
-            <a href="#" class="btn btn-primary">compra ahora</a>
+            <i class="fas fa-map-marker-alt">777 Jesse Pinkman, Chile</i>
+         </div>
+         <div class="card-footer">
+          <div class="row justify-content-end">
+            <div class="col-6 text-right">
+              <p class="h6">$30.990</p>
+            </div>
+            <div class="col-6 text-right">
+              <p class="h5 text-success font-weight-bold">$12.990</p>
+            </div>
           </div>
+        </div>
         </div>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-md-4 mb-4">
         <!-- Tarjeta de oferta 3 -->
         <div class="card h-100">
           <img class="card-img-top" src="assets/img/ofertas/oferta3.png" alt="imagen oferta 3">
           <div class="card-body">
             <h5 class="card-title">Evaluación integral + blanqueamiento dental led + limpieza + fluoración</h5>
             <p class="card-text">Clínica Dental Quijada</p>
-            <p class="price">$25.000</p>
-            <a href="#" class="btn btn-primary">compra ahora</a>
+            <i class="fas fa-map-marker-alt">1342, Blanco Encalada, Chile</i>
+          </div>
+          <div class="card-footer">
+            <div class="row justify-content-end">
+              <div class="col-6 text-right">
+                <p class="h6">$300.000</p>
+              </div>
+              <div class="col-6 text-right">
+                <p class="h5 text-success font-weight-bold">$25.990</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      
-      <div class="col-md-4">
-        <!-- Tarjeta de oferta 3 -->
+
+      <div class="col-md-4 mb-4">
+        <!-- Tarjeta de oferta 4 -->
         <div class="card h-100">
           <img class="card-img-top" src="assets/img/ofertas/oferta4.png" alt="imagen oferta 4">
           <div class="card-body">
             <h5 class="card-title">Colación para 2 personas + postre (no incluye bebidas)</h5>
-            <p class="card-text">Descripcion oferta</p>
-            <p class="price">$2.100</p>
-            <a href="#" class="btn btn-primary">compra ahora</a>
+            <p class="card-text">Suricata Almacen</p>
+            <i class="fas fa-map-marker-alt">1071 Miguel Claro, Chile</i>
+
+          </div>
+          <div class="card-footer">
+            <div class="row justify-content-end">
+              <div class="col-6 text-right">
+                <p class="h6">$4.200</p>
+              </div>
+              <div class="col-6 text-right">
+                <p class="h5 text-success font-weight-bold">$2.100</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <!-- Tarjeta de oferta 5 -->
-      <div class="col">
+      <div class="col-md-4 mb-4">
         <div class="card h-100">
           <img class="card-img-top" src="assets/img/ofertas/oferta5.png" alt="imagen oferta 5">
           <div class="card-body">
             <h5 class="card-title">1, 2 o 4 tickets para Stukids. Elige sucursal</h5>
             <p class="card-text">Stukids Centro de Eventos</p>
-            <p class="price">$2.500</p>
-            <a href="#" class="btn btn-primary">compra ahora</a>
+            <i class="fas fa-map-marker-alt">133 El tranque, Chile</i>
+         </div>
+         <div class="card-footer">
+          <div class="row justify-content-end">
+            <div class="col-6 text-right">
+              <p class="h6">$4.000</p>
+            </div>
+            <div class="col-6 text-right">
+              <p class="h5 text-success font-weight-bold">$2.500</p>
+            </div>
           </div>
+        </div>
         </div>
       </div>
 
       <!-- Tarjeta de oferta 6 -->
-      <div class="col">
+      <div class="col-md-4 mb-4">
         <div class="card h-100">
           <img class="card-img-top" src="assets/img/ofertas/oferta6.png" alt="imagen oferta 6">
           <div class="card-body">
             <h5 class="card-title">San Pedro de Atacama : 1 o 2 noches en alojamiento a elección</h5>
             <p class="card-text">D-Latam Travel</p>
-            <p class="price">$44.100</p>
-            <a href="#" class="btn btn-primary">compra ahora</a>
+          </div>
+          <div class="card-footer">
+            <div class="row justify-content-end">
+              <div class="col-6 text-right">
+                <p class="h6">$80.200</p>
+              </div>
+              <div class="col-6 text-right">
+                <p class="h5 text-success font-weight-bold">$44.100</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
       <!-- Se pueden seguir agregando tarjetas-->
-
     </div>
   </div>
+
+
+  <!-- Formulario cupones -->
+  <div class="container-fluid bg-success">
+    <h2 class="text-center mb-4">Recibe cupones en tu correo</h2>
+    <form action="">
+      <div class="form-group row justify-content-center">
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="nombreInput" placeholder="Nombre">
+        </div>
+      </div>
+      <div class="form-group row justify-content-center">
+        <div class="col-sm-10">
+          <input type="email" class="form-control" id="correoInput" placeholder="Correo Electrónico">
+        </div>
+      </div>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+        <button type="submit" class="btn btn-light">Enviar</button>
+      </div>
+    </form>
+  </div>
+
   <footer>
+    <a class="navbar-brand" href="#">
+      <img class="logo-img" src="assets/img/logos/logo-black.png" alt="Logo de la marca" width="50" height="50">
+    </a>
     <p>&copy; 2023 Cuponlandia. Todos los derechos recervados.</p>
   </footer>
-
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
